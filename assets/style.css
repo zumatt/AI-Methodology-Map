@@ -1,0 +1,178 @@
+/* -------------------> FONT <------------------- */
+@font-face {
+  font-family: EditorialNew;
+  src: url("../assets/font/EditorialNewRegular.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: EditorialNew-Italic;
+  src: url("../assets/font/EditorialNewItalic.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../assets/font/SuisseIntlRegular.otf") format("opentype");
+  font-display: swap;
+}
+
+/* -------------------> STYLE <------------------- */
+
+
+.node.free circle{
+  fill: #ffffff !important;
+  stroke: #ff3636 !important;
+  stroke-width: 1.5px !important;
+}
+
+.node.premium circle{
+  fill: #ffffff !important;
+  stroke: #36c6ff !important;
+  stroke-width: 1.5px !important;
+}
+
+.node.freemium circle{
+  fill: #ffffff !important;
+  stroke: #c936ff !important;
+  stroke-width: 1.5px !important;
+}
+  
+.node text {
+  font: 16px "SuisseIntl", sans-serif;
+}
+  
+.node--internal circle {
+  fill: #ffffff;
+  stroke-width: 1.5px;
+  stroke: #000000;
+}
+  
+.node--internal text {
+  text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+}
+
+.node--leaf text a{
+  text-decoration: underline;
+}
+
+.node--leaf text a:hover{
+  fill: blue;
+  text-decoration: underline;
+}
+
+.tooltip p{
+  margin: 0px;
+}
+
+.link {
+  fill: none;
+  stroke: #e1e1e1;
+  stroke-width: 1.5px;
+}
+  
+label {
+  display: block;
+}
+
+.box{
+  font: 16px "SuisseIntl", sans-serif;
+  width: 20%;
+  text-align: center;
+  padding: 25px 10px 10px 10px;
+  border-left: 1px solid #aaaaaa;
+  z-index: 2;
+}
+
+.free-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #ff3636;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.freemium-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #c936ff;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.premium-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #36c6ff;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.freeWl-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #ffa536;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.text-legend{
+  font: 14px "SuisseIntl", sans-serif;
+  margin-right: 5px;
+}
+
+.sticky-legend{
+  height: 2vh;
+}
+
+.sticky-legend-fixed{
+  top: 0px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+  background-color: blue;
+}
+
+.container{
+  margin: 0vw -1vw 0vw -1vw;
+  width: calc(100% + 2vw);
+  border-top: 1px solid black;
+}
+
+.textBody{
+  font-family: SuisseIntl;
+  font-size: 16px; /* 32px */
+}
+
+.movetiaImg{
+  width: 20%;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 425px){
+  .movetiaImg {
+      width: 40%;
+  }
+}
+
+.movetiaLink{
+  color: red;
+}
+
+.movetiaLink:hover{
+  background-color: red;
+  color: white;
+}

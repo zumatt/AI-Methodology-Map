@@ -1,0 +1,63 @@
+id,cost,code,usage,skills,link
+AI Methodology Map,,,,,,
+AI Methodology Map.Image generation,,,,,
+AI Methodology Map.Image generation.Text,,,,,
+AI Methodology Map.Image generation.Text.DALL-e,Freemium,No code,Online,Low,https://openai.com/research/dall-e
+AI Methodology Map.Image generation.Text.Stable Diffusion,Freemium,No code,Online,Low,https://stablediffusionweb.com/
+AI Methodology Map.Image generation.Text.Playform ai,Freemium,No code,Online,Low,https://www.playform.io/
+AI Methodology Map.Image generation.Text.Fotor,Freemium,No code,Online,Low,https://www.fotor.com/
+AI Methodology Map.Image generation.Text.RUNWAY ML,Freemium,No code,Online,Low,https://runwayml.com/
+AI Methodology Map.Image generation.Text.Unstock ai,Free,No code,Online,Low,https://unstock.ai/
+AI Methodology Map.Image generation.Text.Craiyon,Free,No code,Online,Low,https://www.craiyon.com/
+AI Methodology Map.Image generation.Text.Dream Studio,Freemium,No code,Online,Low,https://beta.dreamstudio.ai/
+AI Methodology Map.Image generation.Text.Photosonic,Freemium,No code,Online,Low,https://writesonic.com/photosonic-ai-art-generator
+AI Methodology Map.Image generation.Text.Artflow,Freemium,No code,Online,Low,https://app.artflow.ai/
+AI Methodology Map.Image generation.Text.Lexica,Freemium,No code,Online,Low,https://lexica.art/
+AI Methodology Map.Image generation.Image,,,,,
+AI Methodology Map.Image generation.Image.RUNWAY ML,Freemium,No code,Online,Low,https://runwayml.com/
+AI Methodology Map.Image generation.Image.Dream Studio,Freemium,No code,Online,Low,https://beta.dreamstudio.ai/
+AI Methodology Map.Text generation,,,,,
+AI Methodology Map.Text generation.Text,,,,,
+AI Methodology Map.Text generation.Text.Bing,Free,No code,Online,Low,https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1
+AI Methodology Map.Text generation.Text.ChatGPT,Freemium,No code,Online,Low,https://chat.openai.com/
+AI Methodology Map.Text generation.Text.Hugging Chat,Free,No code,Online,Low,https://huggingface.co/
+AI Methodology Map.Text generation.Text.Chat Sonic,Free,No code,Online,Low,https://app.writesonic.com/
+AI Methodology Map.Text generation.Text.Jasper ai,Freemium,No code,Online,Low,https://www.jasper.ai/
+AI Methodology Map.Video generation,,,,,
+AI Methodology Map.Video generation.Text,,,,,
+AI Methodology Map.Video generation.Text.Artflow,Freemium,No code,Online,Low,https://app.artflow.ai/
+AI Methodology Map.Video generation.Text.Synthesia,Freemium,No code,Online,Low,https://www.synthesia.io/
+AI Methodology Map.Video generation.Text.Fliki,Freemium,No code,Online,Low,https://fliki.ai/
+AI Methodology Map.Video generation.Text.Pictory,Freemium,No code,Online,Low,https://pictory.ai/
+AI Methodology Map.Video generation.Text.Glia,Freemium,No code,Online,Low,https://www.gliacloud.com/en/
+AI Methodology Map.Video generation.Text.Elai,Freemium,No code,Online,Low,https://elai.io/
+AI Methodology Map.Video generation.Text.Visla,Freemium,No code,Online,Low,https://www.visla.us/
+AI Methodology Map.Video generation.Audio,,,,,
+AI Methodology Map.Video generation.Audio.Visla,Freemium,No code,Online,Low,https://www.visla.us/
+AI Methodology Map.Video generation.Audio.WZRD ai,Free,No code,Online,Low,https://wzrd.ai/
+AI Methodology Map.Audio generation,,,,,
+AI Methodology Map.Audio generation.Text,,,,,
+AI Methodology Map.Audio generation.Text.II Eleven Labs,Freemium,No code,Online,Low,https://elevenlabs.io/
+AI Methodology Map.Audio generation.Text.Murf AI,Freemium,No code,Online,Low,https://murf.ai/
+AI Methodology Map.Audio generation.Instructions,,,,,
+AI Methodology Map.Audio generation.Instructions.Aiva,Freemium,No code,Online,Low,https://www.aiva.ai/
+AI Methodology Map.Audio generation.Instructions.Soundraw,Freemium,No code,Online,Low,https://soundraw.io/
+AI Methodology Map.Audio generation.Table,,,,,
+AI Methodology Map.Audio generation.Table.Two Tone,Free,No code,Online,Low,https://www.sonify.io/twotone/
+AI Methodology Map.App generation,,,,,
+AI Methodology Map.App generation.Text,,,,,
+AI Methodology Map.App generation.Text.Sutro,Free,No code,Online,Low,https://withsutro.com/
+AI Methodology Map.App generation.Text.weTune,Free,No code,Online,Low,https://www.wetune.chat/
+AI Methodology Map.App generation.Text.Apsy,Freemium,No code,Online,Low,https://www.apsy.io/
+AI Methodology Map.App generation.Instructions,,,,,
+AI Methodology Map.App generation.Instructions.Brancher AI,Freemium,No code,Online,Low,https://app.brancher.ai/
+AI Methodology Map.App generation.Instructions.Apsy,Freemium,No code,Online,Low,https://www.apsy.io/
+AI Methodology Map.Code generation,,,,,
+AI Methodology Map.Code generation.Text,,,,,
+AI Methodology Map.Code generation.Text.Code Generator for Arduino,Free,No code,Online,Low,https://www.duinocodegenerator.com/
+AI Methodology Map.Code generation.Text.Codex,Free,No code,Online,Low,https://openai.com/blog/openai-codex
+AI Methodology Map.Website generation,,,,,
+AI Methodology Map.Website generation.Text,,,,,
+AI Methodology Map.Website generation.Text.Batternut AI,Freemium,No code,Online,Low,https://butternut.ai/
+AI Methodology Map.Website generation.Instructions,,,,,
+AI Methodology Map.Website generation.Instructions.Durable,Premium,No code,Online,Low,https://durable.co/

@@ -207,7 +207,7 @@ if (window.innerWidth <= 1200) {
       .attr("dy", 3)
       .attr("x", function (d) { return d.children ? -8 : 8; })
       .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
-      .html(function (d) { return "<a" + (d.children ? ">" : " href='" + d.data.Link + "' target='_blank'>") + d.id.substring(d.id.lastIndexOf(".") + 1); + "</a>" });
+      .html(function (d) { return "<a" + (d.children ? ">" : " href='" + d.data.link + "' target='_blank'>") + d.id.substring(d.id.lastIndexOf(".") + 1); + "</a>" });
   });
   
   function diagonal(d) {

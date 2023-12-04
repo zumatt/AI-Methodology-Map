@@ -128,31 +128,35 @@ if (window.innerWidth <= 1200) {
   
     var Tooltip = d3.select("body")
       .append("div")
-      .style("position", "absolute")
+      .style("position", "fixed")
+      .style("top", "0")
+      .style("right", "0")
+      .style("height", "100vh")
       .style("opacity", 0)
       .attr("class", "tooltip")
-      .style("background-color", "rgb(255 255 255 / 90%)")
-      .style("border", "solid")
+      .style("background-color", "rgb(255 255 255)")
+      .style("border-left", "solid 2px")
       .style("font", "16px sans-serif")
       .style("line-height", "32px")
-      .style("border-width", "2px")
-      .style("min-width", "200px")
       .style("padding", "30px")
-      .style("z-index", "3");
+      .style("width", "40vw")
+      .on("click", function(d){mouseleave(d);});
   
     var mouseover = function (d) {
       Tooltip
         .style("opacity", 1)
+        .style("z-index", "10")
     }
     var mousemove = function (d) {
       Tooltip
-        .html("<p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Code:</span> " + d.data.code + "<br><span style='text-decoration: underline;'>Accessibility:</span> " + d.data.cost + "<br><span style='text-decoration: underline;'>Use mode:</span> " + d.data.usage + "<br><span style='text-decoration: underline;'>Skills:</span> " + d.data.skills + "</p>")
-        .style("left", (event.pageX - Tooltip.node().offsetWidth - 15) + "px")
-        .style("top", (event.pageY + 15) + "px")
+        .html("<p style='font-size: 20px; cursor: pointer;'> x </p><p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Code:</span> " + d.data.code + "<br><span style='text-decoration: underline;'>Accessibility:</span> " + d.data.cost + "<br><span style='text-decoration: underline;'>Use mode:</span> " + d.data.usage + "<br><span style='text-decoration: underline;'>Skills:</span> " + d.data.skills + "</p>" + "<br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>API Documentation</a><br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>Link</a></p>")
+        //.style("left", (event.pageX - Tooltip.node().offsetWidth - 15) + "px")
+        //.style("top", (event.pageY + 15) + "px")
     }
     var mouseleave = function (d) {
       Tooltip
         .style("opacity", 0)
+        .style("z-index", "-1")
     }
   
     var node = g.selectAll(".node")
@@ -161,9 +165,11 @@ if (window.innerWidth <= 1200) {
       .style("display", function (d) { return d.parent ? "" : "none"; })
       .attr("class", function (d) { if (d.data.cost == "Free") { return "node free" + (d.children ? " node--internal" : " node--leaf"); } else if (d.data.cost == "Premium") { return "node premium" + (d.children ? " node--internal" : " node--leaf"); } else if (d.data.cost == "Freemium") { return "node freemium" + (d.children ? " node--internal" : " node--leaf"); } else { return "node" + (d.children ? " node--internal" : " node--leaf"); } })
       .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; })
-      .on("mouseover", function (d) { if (d.data.cost) { mouseover(d); } })
+      .on("click", function(d){mouseover(d);})
+      //.on("mouseover", function (d) { if (d.data.cost) { mouseover(d); } })
       .on("mousemove", function (d) { if (screen.width >= 1000) { if (d.data.cost) { mousemove(d); } } })
-      .on("mouseleave", function (d) { if (d.data.cost) { mouseleave(d); } });
+      //.on("mouseleave", function (d) { if (d.data.cost) { mouseleave(d); } });
+      ;
   
     g.selectAll(".box")
       .attr("transform", function (d) { return "translate(" + d.y + "," + 0 + ")"; });
@@ -207,7 +213,7 @@ if (window.innerWidth <= 1200) {
       .attr("dy", 3)
       .attr("x", function (d) { return d.children ? -8 : 8; })
       .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
-      .html(function (d) { return "<a" + (d.children ? ">" : " href='" + d.data.link + "' target='_blank'>") + d.id.substring(d.id.lastIndexOf(".") + 1); + "</a>" });
+      .html(function (d) { return "<a" + ">" + d.id.substring(d.id.lastIndexOf(".") + 1); + "</a>" });
   });
   
   function diagonal(d) {

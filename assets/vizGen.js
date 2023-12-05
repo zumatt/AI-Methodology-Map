@@ -165,7 +165,7 @@ if (window.innerWidth <= 1200) {
       .style("display", function (d) { return d.parent ? "" : "none"; })
       .attr("class", function (d) { if (d.data.cost == "Free") { return "node free" + (d.children ? " node--internal" : " node--leaf"); } else if (d.data.cost == "Premium") { return "node premium" + (d.children ? " node--internal" : " node--leaf"); } else if (d.data.cost == "Freemium") { return "node freemium" + (d.children ? " node--internal" : " node--leaf"); } else { return "node" + (d.children ? " node--internal" : " node--leaf"); } })
       .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; })
-      .on("click", function(d){mouseover(d);})
+      .on("click", function(d){if (d.data.cost) { mouseover(d); } })
       //.on("mouseover", function (d) { if (d.data.cost) { mouseover(d); } })
       .on("mousemove", function (d) { if (screen.width >= 1000) { if (d.data.cost) { mousemove(d); } } })
       //.on("mouseleave", function (d) { if (d.data.cost) { mouseleave(d); } });
@@ -210,8 +210,8 @@ if (window.innerWidth <= 1200) {
       .attr("r", 3.5);
   
     node.append("text")
-      .attr("dy", 3)
-      .attr("x", function (d) { return d.children ? -8 : 8; })
+      .attr("dy", 4)
+      .attr("x", function (d) { return d.children ? -9 : 10; })
       .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
       .html(function (d) { return "<a" + ">" + d.id.substring(d.id.lastIndexOf(".") + 1); + "</a>" });
   });

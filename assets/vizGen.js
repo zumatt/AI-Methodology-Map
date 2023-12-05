@@ -144,14 +144,9 @@ if (window.innerWidth <= 1200) {
   
     var mouseover = function (d) {
       Tooltip
+        .html("<p style='font-size: 20px; cursor: pointer;'> x </p><p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span >Code:</span> " + d.data.code + "<br><span >Accessibility:</span> " + d.data.cost + "<br><span >Use mode:</span> " + d.data.usage + "<br><span >Skills:</span> " + d.data.skills + "</p>" + "<br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>Tool link</a>" + (d.data.api ? "<br><a href='" + d.data.api + "' target='_blank' style='text-decoration: underline;'>API Documentation</a>" : "") + (d.data.apinote ? "<br><span>API note:</span> " + d.data.apinote + "</p>" : ""))
         .style("opacity", 1)
         .style("z-index", "10")
-    }
-    var mousemove = function (d) {
-      Tooltip
-        .html("<p style='font-size: 20px; cursor: pointer;'> x </p><p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span >Code:</span> " + d.data.code + "<br><span >Accessibility:</span> " + d.data.cost + "<br><span >Use mode:</span> " + d.data.usage + "<br><span >Skills:</span> " + d.data.skills + "</p>" + "<br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>Tool link</a>" + (d.data.api ? "<br><a href='" + d.data.api + "' target='_blank' style='text-decoration: underline;'>API Documentation</a>" : "") + (d.data.apinote ? "<br><span>API note:</span> " + d.data.apinote + "</p>" : ""))
-        //.style("left", (event.pageX - Tooltip.node().offsetWidth - 15) + "px")
-        //.style("top", (event.pageY + 15) + "px")
     }
     var mouseleave = function (d) {
       Tooltip
@@ -167,7 +162,7 @@ if (window.innerWidth <= 1200) {
       .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; })
       .on("click", function(d){if (d.data.cost) { mouseover(d); } })
       //.on("mouseover", function (d) { if (d.data.cost) { mouseover(d); } })
-      .on("mousemove", function (d) { if (screen.width >= 1000) { if (d.data.cost) { mousemove(d); } } })
+      //.on("mousemove", function (d) { if (screen.width >= 1000) { if (d.data.cost) { mousemove(d); } } })
       //.on("mouseleave", function (d) { if (d.data.cost) { mouseleave(d); } });
       ;
   

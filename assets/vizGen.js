@@ -139,7 +139,6 @@ if (window.innerWidth <= 1200) {
       .style("font", "16px sans-serif")
       .style("line-height", "32px")
       .style("padding", "30px")
-      .style("width", "40vw")
       .on("click", function(d){mouseleave(d);});
   
     var mouseover = function (d) {

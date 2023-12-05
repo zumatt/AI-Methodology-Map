@@ -177,6 +177,16 @@ a:hover{
   color: white;
 }
 
+.tooltip{
+  width: 15vw;
+}
+
+@media only screen and (max-width: 425px){
+  .tooltip {
+      width: 40vw;
+  }
+}
+
 /* -------------------> ANIMATION <------------------- */
 @keyframes slideRightToLeft {
   0% {

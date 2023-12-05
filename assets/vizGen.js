@@ -134,7 +134,6 @@ if (window.innerWidth <= 1200) {
       .style("height", "100vh")
       .style("opacity", 0)
       .attr("class", "tooltip")
-      .style("background-color", "rgb(255 255 255)")
       .style("border-left", "solid 2px")
       .style("font", "16px sans-serif")
       .style("line-height", "32px")

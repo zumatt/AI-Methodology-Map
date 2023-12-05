@@ -176,3 +176,26 @@ a:hover{
   background-color: red;
   color: white;
 }
+
+/* -------------------> ANIMATION <------------------- */
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(0%);
+  }
+  99% {
+    transform: translateX(100%);
+  }
+  100%{
+    opacity: 0;
+    z-index: -1;
+  }
+}

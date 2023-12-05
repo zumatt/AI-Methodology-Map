@@ -149,7 +149,7 @@ if (window.innerWidth <= 1200) {
     }
     var mousemove = function (d) {
       Tooltip
-        .html("<p style='font-size: 20px; cursor: pointer;'> x </p><p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Code:</span> " + d.data.code + "<br><span style='text-decoration: underline;'>Accessibility:</span> " + d.data.cost + "<br><span style='text-decoration: underline;'>Use mode:</span> " + d.data.usage + "<br><span style='text-decoration: underline;'>Skills:</span> " + d.data.skills + "</p>" + "<br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>API Documentation</a><br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>Link</a></p>")
+        .html("<p style='font-size: 20px; cursor: pointer;'> x </p><p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span >Code:</span> " + d.data.code + "<br><span >Accessibility:</span> " + d.data.cost + "<br><span >Use mode:</span> " + d.data.usage + "<br><span >Skills:</span> " + d.data.skills + "</p>" + "<br><a href='" + d.data.link + "' target='_blank' style='text-decoration: underline;'>Tool link</a>" + (d.data.api ? "<br><a href='" + d.data.api + "' target='_blank' style='text-decoration: underline;'>API Documentation</a>" : "") + (d.data.apinote ? "<br><span>API note:</span> " + d.data.apinote + "</p>" : ""))
         //.style("left", (event.pageX - Tooltip.node().offsetWidth - 15) + "px")
         //.style("top", (event.pageY + 15) + "px")
     }

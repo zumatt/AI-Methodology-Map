@@ -17,6 +17,18 @@ AI Methodology Map.Audio generation.Table.Two Tone,Free,No code,Online,Low,https
 AI Methodology Map.Audio generation.Text,,,,,,,
 AI Methodology Map.Audio generation.Text.II Eleven Labs,Freemium,No code,Online,Low,https://elevenlabs.io/,https://api.elevenlabs.io/docs,
 AI Methodology Map.Audio generation.Text.Murf AI,Freemium,No code,Online,Low,https://murf.ai/,https://murf.ai/api/docs,
+AI Methodology Map.Audio generation.Text.MAGNet,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/fffiloni/MAGNet,https://github.com/facebookresearch/audiocraft?tab=readme-ov-file,
+AI Methodology Map.Audio generation.Text.MusicGen,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/facebook/MusicGen,https://huggingface.co/facebook/musicgen-large,
+AI Methodology Map.Audio generation.Text.AudioLDM,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/haoheliu/audioldm2-text2audio-text2music,https://huggingface.co/cvssp/audioldm2,
+AI Methodology Map.Audio generation.Text.XTTS,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/coqui/xtts,https://huggingface.co/coqui/XTTS-v2,
+AI Methodology Map.Audio generation.Text.MMS,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/mms-meta/MMS,https://huggingface.co/facebook/mms-tts,
+AI Methodology Map.Audio generation.Text.Bark,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/suno/bark,https://huggingface.co/suno/bark,
+AI Methodology Map.Audio generation.Text.WhisperSpeech,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/collabora/WhisperSpeech,https://huggingface.co/collabora/whisperspeech,
+AI Methodology Map.Audio generation.Text.UnrealSpeech,Freemium,No code,Online,Low,https://unrealspeech.com/,https://docs.unrealspeech.com/reference/getting-started-with-our-api,
+AI Methodology Map.Audio generation.Text.ElevenLabs,Freemium,No code,Online,Low,https://elevenlabs.io/,https://elevenlabs.io/docs/api-reference/text-to-speech,
+AI Methodology Map.Audio generation.Text.Murf AI,Freemium,No code,Online,Low,https://murf.ai/,https://murf.ai/api/docs,
+AI Methodology Map.Audio generation.Text.Speechify,Freemium,No code,Online,Low,https://www.getspeechify.com/,,Not available
+AI Methodology Map.Audio generation.Text.Riffusion,Freemium,No code,Online,Low,https://app.riffusion.com/,,Not available
 AI Methodology Map.Code generation,,,,,,,
 AI Methodology Map.Code generation.Text,,,,,,,
 AI Methodology Map.Code generation.Text.Code Generator for Arduino,Freemium,No code,Online,Low,https://www.duinocodegenerator.com/,,Not available
@@ -40,6 +52,11 @@ AI Methodology Map.Image generation.Text.Lexica,Premium,No code,Online,Low,https
 AI Methodology Map.Image generation.Text.Bing,Freemium,No code,Online,Low,https://www.bing.com/create,,Not available
 AI Methodology Map.Image generation.Text.BlueWillow,Freemium,No code,Online,Low,https://www.bluewillow.ai/,https://www.bluewillow.ai/terms-of-service,Terms of service
 AI Methodology Map.Image generation.Text.Stability AI,Freemium,No code,Online,Low,https://platform.stability.ai/sandbox/text-to-image,https://platform.stability.ai/docs/getting-started,
+AI Methodology Map.Image generation.Text.Facet AI,Freemium,No code,Online,Low,https://www.facet.ai/,,Not available
+AI Methodology Map.Image generation.Text.Dream Up,Freemium,No code,Online,Low,https://dreamup.com/,,Not available
+AI Methodology Map.Image generation.Text.Deep AI,Freemium,No code,Online,Low,https://deepai.org/machine-learning-model/text2img,https://deepai.org/machine-learning-model/text2img,API reference
+AI Methodology Map.Image generation.Text.Dream,Freemium,No code,Online,Low,https://dream.ai/,https://www.w.ai/dream-api,
+AI Methodology Map.Image generation.Text.ComfyUI,Free,Code,Online,Medium,https://github.com/comfyanonymous/ComfyUI,https://comfyanonymous.github.io/ComfyUI_examples/
 AI Methodology Map.Text generation,,,,,,,
 AI Methodology Map.Text generation.Text,,,,,,,
 AI Methodology Map.Text generation.Text.Bing,Freemium,No code,Online,Low,https://www.bing.com/search?form=MY0291&OCID=MY0291&q=Bing+AI&showconv=1,,Not available
@@ -47,6 +64,14 @@ AI Methodology Map.Text generation.Text.ChatGPT,Freemium,No code,Online,Low,http
 AI Methodology Map.Text generation.Text.Hugging Chat,Freemium,No code,Online,Low,https://huggingface.co/,https://github.com/Soulter/hugging-chat-api,Unnoficial
 AI Methodology Map.Text generation.Text.Chat Sonic,Freemium,No code,Online,Low,https://app.writesonic.com/,https://writesonic.com/api,
 AI Methodology Map.Text generation.Text.Jasper ai,Freemium,No code,Online,Low,https://www.jasper.ai/,https://www.jasper.ai/api,
+AI Methodology Map.Text generation.Text.Gemini,Freemium,No code,Online,Low,https://gemini.google.com/app,https://ai.google.dev/?gad_source=1&gclid=Cj0KCQjwlN6wBhCcARIsAKZvD5gp_4aiBnvT0IDA75yWfyxp3lSrq3mwfqIpwl3ln1Ca9Y4u-s3N_5AaArygEALw_wcB,
+AI Methodology Map.Text generation.Text.Copy.ai,Freemium,No code,Online,Low,https://app.copy.ai/,https://learn.copy.ai/articles/api-integration,
+AI Methodology Map.Text generation.Text.Copilot,Freemium,No code,Online,Low,https://copilot.microsoft.com/,https://www.microsoft.com/en-us/microsoft-365/blog/2023/05/09/introducing-the-microsoft-365-copilot-early-access-program-and-new-capabilities-in-copilot/,
+AI Methodology Map.Text generation.Text.Semrush,Freemium,No code,Online,Low,https://writio.com/?utm_term=semrush%20content%20writing&utm_campaign=Writio1&utm_source=adwords&utm_medium=ppc&hsa_acc=3527166132&hsa_cam=21169303439&hsa_grp=161138571095&hsa_ad=695995494900&hsa_src=g&hsa_tgt=kwd-826786304331&hsa_kw=semrush%20content%20writing&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwlN6wBhCcARIsAKZvD5gQTd2WCIlOsrqtZ2Y5iUlev_Lbq1scaKklUi-V6LB4NRGMdkuQs5QaAsuREALw_wcB,https://developer.semrush.com/api/,
+AI Methodology Map.Text generation.Text.Deep AI,Freemium,No code,Online,Low,https://deepai.org/chat,https://deepai.org/docs,
+AI Methodology Map.Text generation.Text.Scite AI,Freemium,No code,Online,Low,https://scite.ai/,https://scite.ai/apiterms,
+AI Methodology Map.Text generation.Text.Phind,Freemium,No code,Online,Low,https://www.phind.com/,https://github.com/defineprogramming/phindapidocs,
+AI Methodology Map.Text generation.Text.Llama 3,Free,Code,Online or Offline,Medium,https://llama.meta.com/llama-downloads/,https://huggingface.co/meta-llama/Meta-Llama-3-70B,
 AI Methodology Map.Video generation,,,,,,,
 AI Methodology Map.Video generation.Audio,,,,,,,
 AI Methodology Map.Video generation.Audio.WZRD ai,Free,No code,Online,Low,https://wzrd.ai/,,Not available
@@ -59,6 +84,20 @@ AI Methodology Map.Video generation.Text.Pictory,Freemium,No code,Online,Low,htt
 AI Methodology Map.Video generation.Text.Glia,Freemium,No code,Online,Low,https://www.gliacloud.com/en/,,Not available
 AI Methodology Map.Video generation.Text.Elai,Free,No code,Online,Low,https://elai.io/,https://elai.readme.io/reference/getting-started-with-your-api,
 AI Methodology Map.Video generation.Text.Visla,Free,No Code,Online,Low,https://www.visla.us/,,Not available
+AI Methodology Map.Video generation.Text.ModelScope Text to Video Synthesis,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/ali-vilab/modelscope-text-to-video-synthesis,https://huggingface.co/ali-vilab/modelscope-damo-text-to-video-synthesis,
+AI Methodology Map.Video generation.Text.Open-Sora,Free,Code,Online or Offline,High,https://huggingface.co/spaces/kadirnar/Open-Sora,https://github.com/hpcaitech/Open-Sora,
+AI Methodology Map.Video generation.Text.Text2Video-Zero,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/PAIR/Text2Video-Zero,https://github.com/Picsart-AI-Research/Text2Video-Zero,
+AI Methodology Map.Video generation.Text.Pika,Freemium,No code,Online,Low,https://pika.art/,,
+AI Methodology Map.Video generation.Text.HeyGen,Freemium,No code,Online,Low,https://www.heygen.com/,https://docs.heygen.com/docs/quick-start,
+AI Methodology Map.Video generation.Text.Deep AI,Freemium,No code,Online,Low,https://deepai.org/video,https://deepai.org/docs,
+AI Methodology Map.Video generation.Text.Colossyan,Freemium,No code,Online,Low,https://www.colossyan.com/?via=aitoolsone,https://docs.colossyan.com/,
+AI Methodology Map.Video generation.Text.Hour One,Freemium,No code,Online,Low,https://hourone.ai/use-cases/it-training/,https://hourone.ai/studio-api/,
+AI Methodology Map.Video generation.Text.Deep Brain AI,Freemium,No code,Online,Low,https://easywithai.com/tools/deepbrainai,https://docs.deepbrain.io/aistudios/getting-started,
+AI Methodology Map.Video generation.Text.InVideo,Freemium,No code,Online,Low,https://invideo.io/?irclickid=SU1VeTS3NxyNW6%3AW9YQVXTIlUkFxW40%3ArymmyU0&mpid=2459529&irgwc=1,,
+AI Methodology Map.Video generation.Image,,,,,,,
+AI Methodology Map.Video generation.Image.RUNWAY ML,Freemium,No code,Online,Low,https://runwayml.com/,https://apitracker.io/a/runwayml,
+AI Methodology Map.Video generation.Image.Stable Video Diffusion,Free,Code,Online or Offline,Medium,https://huggingface.co/spaces/multimodalart/stable-video-diffusion,https://github.com/Stability-AI/generative-models,
+AI Methodology Map.Video generation.Image.Deep AI,Freemium,No code,Online,Low,https://deepai.org/video,https://deepai.org/docs,
 AI Methodology Map.Website generation,,,,,,,
 AI Methodology Map.Website generation.Instructions,,,,,,,
 AI Methodology Map.Website generation.Instructions.Durable,Freemium,No code,Online,Low,https://durable.co/,https://durable.co/terms-of-service,Terms of service

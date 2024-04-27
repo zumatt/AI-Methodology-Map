@@ -1,5 +1,7 @@
 # AI Methodology Map
-[![DOI](https://zenodo.org/records/10475202)](https://doi.org/10.5281/zenodo.10475201)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10475202.svg)](https://doi.org/10.5281/zenodo.10475201) [![Static Badge](https://img.shields.io/badge/Project_license-CC_BY_SA_4.0-orange)][cc-by-sa] [![Static Badge](https://img.shields.io/badge/Code_license-MIT-green)](https://mit-license.org/)
+
+
 
 
 Project Description
@@ -29,7 +31,11 @@ We need to include any?
 
 ## Cite the project
 ```
-Joceli Omena, J., Botta, M., Autuori, A., Leite, E., Subet, M., & Terenghi, G. (2023, dicembre 9). AI Methodology Map. Generative Methods — AI as Collaborator and Companion in the Social Sciences and Humanities, Aalborg University. https://doi.org/10.5281/zenodo.10475202
+Joceli Omena, J., Botta, M., Autuori, A., Leite, E., Subet, M., & Terenghi, G.
+(2023, dicembre 9).
+AI Methodology Map. Generative Methods — AI as Collaborator and Companion
+in the Social Sciences and Humanities, Aalborg University.
+https://doi.org/10.5281/zenodo.10475202
 ```
 
 

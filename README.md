@@ -31,7 +31,7 @@ We need to include any?
 
 ## Cite the project
 ```
-Joceli Omena, J., Botta, M., Autuori, A., Leite, E., Subet, M., & Terenghi, G.
+Omena, J.J., Botta, M., Autuori, A., Leite, E., Subet, M., & Terenghi, G.
 (2023, dicembre 9).
 AI Methodology Map. Generative Methods — AI as Collaborator and Companion
 in the Social Sciences and Humanities, Aalborg University.

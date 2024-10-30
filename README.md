@@ -93,7 +93,7 @@ The map’s applications were developed within the context of the research proje
 
 ## Cite the project
 ```
-Omena, J. J., Autuori, A., Leite Vasconcelos, E., Subet, M., & Botta, M. (2024). AI Methodology Map. Practical and Theoretical Approach to Engage with GenAI for Digital Methods Research. Sociologica, 18(2), 109–144. [https://doi.org/10.6092/issn.1971-8853/19566](https://doi.org/10.6092/issn.1971-8853/19566)
+Omena, J. J., Autuori, A., Leite Vasconcelos, E., Subet, M., & Botta, M. (2024). AI Methodology Map. Practical and Theoretical Approach to Engage with GenAI for Digital Methods Research. Sociologica, 18(2), 109–144. https://doi.org/10.6092/issn.1971-8853/19566
 
 ```
 
